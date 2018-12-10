@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">证件文字抓取</string>
+    <string name="idCardLabel">身份证识别</string>
+    <string name="bankCardLabel">银行卡识别</string>
+    <string name="generalLabel">通用文字识别</string>
+
+    <string name="str_name">姓  名</string>
+    <string name="str_gender">性  别</string>
+    <string name="str_ethnic">民  族</string>
+    <string name="str_birthday">出  生</string>
+    <string name="str_birthday_year">年</string>
+    <string name="str_birthday_month">月</string>
+    <string name="str_birthday_day">日</string>
+    <string name="str_address">住址</string>
+    <string name="str_idNumber">公民身份证号码</string>
+    <string name="str_issueAuthority">签发机关</string>
+    <string name="str_signDate_expiryDate">有效期限</string>
+</resources>

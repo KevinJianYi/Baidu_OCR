@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardElevation="0dp"
+        app:cardCornerRadius="5dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+            <TextView android:id="@+id/name_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_label_style_blue"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/str_name"/>
+            <TextView android:id="@+id/name_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/name_label"
+                android:layout_toRightOf="@+id/name_label"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"
+                android:textColor="@color/color_black_label"/>
+
+            <TextView android:id="@+id/gender_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_label_style_blue"
+                android:text="@string/str_gender"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/name_label"
+                android:layout_marginTop="20dp"/>
+            <TextView android:id="@+id/gender_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_content_style"
+                android:layout_alignBottom="@+id/gender_label"
+                android:layout_toRightOf="@+id/gender_label"/>
+
+            <TextView android:id="@+id/ethnic_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_label_style_blue"
+                android:text="@string/str_ethnic"
+                android:layout_alignBottom="@+id/gender_label"
+                android:layout_toRightOf="@+id/gender_info"
+                android:layout_marginLeft="30dp"/>
+            <TextView android:id="@+id/ethnic_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_content_style"
+                android:layout_alignBottom="@+id/ethnic_label"
+                android:layout_toRightOf="@+id/ethnic_label"/>
+
+            <TextView android:id="@+id/birthday_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_label_style_blue"
+                android:text="@string/str_birthday"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/gender_label"
+                android:layout_marginTop="20dp"/>
+            <TextView android:id="@+id/birthday_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_content_style"
+                android:layout_alignTop="@+id/birthday_label"
+                android:layout_toRightOf="@+id/birthday_label"/>
+
+            <TextView android:id="@+id/address_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_label_style_blue"
+                android:text="@string/str_address"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/birthday_label"
+                android:layout_marginTop="20dp"/>
+            <TextView android:id="@+id/address_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_content_style"
+                android:layout_alignTop="@+id/address_label"
+                android:layout_toRightOf="@+id/address_label"/>
+
+            <TextView android:id="@+id/idNumber_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_label_style_blue"
+                android:text="@string/str_idNumber"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/address_info"
+                android:layout_marginTop="20dp"/>
+            <TextView android:id="@+id/idNumber_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_content_style"
+                android:layout_alignTop="@+id/idNumber_label"
+                android:layout_toRightOf="@+id/idNumber_label"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

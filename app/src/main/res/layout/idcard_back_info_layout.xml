@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardElevation="0dp"
+        app:cardCornerRadius="5dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+            <TextView android:id="@+id/issueAuthority_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_label_style_black"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/str_issueAuthority"/>
+            <TextView android:id="@+id/issueAuthority_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/issueAuthority_label"
+                android:layout_toRightOf="@+id/issueAuthority_label"
+                android:layout_marginLeft="20dp"
+                style="@style/text_content_style"/>
+
+            <TextView android:id="@+id/expiry_date_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_label_style_black"
+                android:text="@string/str_signDate_expiryDate"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/issueAuthority_label"
+                android:layout_marginTop="20dp"/>
+            <TextView android:id="@+id/expiry_date_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_content_style"
+                android:layout_alignTop="@+id/expiry_date_label"
+                android:layout_toRightOf="@+id/expiry_date_label"/>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

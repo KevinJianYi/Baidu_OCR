@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">OCR_Library</string>
+    <string name="idCardLabel">身份证识别</string>
+</resources>
